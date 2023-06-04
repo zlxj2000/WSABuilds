@@ -38,121 +38,221 @@
 
 > #### The same level of scrutiny should be applied with the Windows Subsystem For Android™ builds as with any other program that you download from the internet
 </details>
-      
- <details>     
-   <summary><h3> &nbsp; ❓Want to build your own custom build❓ <h3></summary>
-         
-| :exclamation: **Important:**  &nbsp;  `⚠️DO NOT FORK⚠️`               |
-|------------------------------------------------------------------------|
-|**The repository shown in this is designed specifically not to be forked. MagiskOnWSA and some of the various forks and clones that have sprung up on the platform (***potentially***) violate GitHub's Terms of Service due to abuse of GitHub Actions and have been ultimately warned, disabled or banned.**| 
-|**Therefore, don't fork this repository unless you're a developer and want to modify the code itself and/or want to contribute to the Github repository.**|
-|**If you want to create your Custom Build, please follow the instructions set out clearly, to avoid the repo from being taken down as a result of a misuse of Github Actions due to the large number of forks.**|
-         
----
-#### **1. Star this repos (I will happy if you do that)**
-
----
-#### **2. Check the version from [Releases](https://github.com/MustardChef/WSABuilds/releases) first. If it does not have the version you want, continue to follow this guide. If it does, then feel free to use those prebuild WSA builds**
-
----      
-#### **3. Log into your Github Account (this is necessary) and in the home page, click on the button (shown below) and select "import a repository" or go to [this page directly](https://github.com/new/import)**
-   ***Step 1:***
-   
-   <img src="https://user-images.githubusercontent.com/68516357/221636520-78d0716a-247b-4034-aa9d-bdbe2277950c.png" style="width: 350px;"/>
-   
-   ***Step 2:***
-   
-   ![image](https://user-images.githubusercontent.com/68516357/221641202-e3ef4deb-f2dd-46e6-82c8-fb4767f82e99.png)
-   
----   
-#### **4. [Copy the URL of this Repo](https://github.com/WellCodeIsDelicious/WSA-Script) and paste it into the the text box below and press "Import"** 
-
-![image](https://user-images.githubusercontent.com/68516357/221643582-72d71f68-8f53-48d9-a940-692a54d42098.png)
-
----
-#### **5. Go to the **Setting** tab in your newly imported repo and enable "Github Actions"**
-
-![Settings](https://user-images.githubusercontent.com/68516357/222214308-b52b1c6f-a60b-44ef-9ce0-bc335087e3a2.png)
-![MRq9WD3SO2](https://user-images.githubusercontent.com/68516357/222215598-30d68ad3-9700-4061-bba4-815b3befcb10.png)
-
-
----
-#### **6. Open [this link](https://github.com/settings/tokens/new) in new tab, then follow the step below. FINALLY, SCROLL DOWN AND CLICK GENERATE TOKEN**
-![image](https://user-images.githubusercontent.com/70064328/231184720-0d3b4ce7-0b82-4b1f-b337-5f0fd0ceb632.png)
-
-
----
-#### **7. The key will appear. Then click the copy button at right side of the key.**
-![image](https://user-images.githubusercontent.com/70064328/231189492-cf3b407e-708b-4224-ba4e-11f3e27012a1.png)
----
-
----
-#### **8. Now, back to your repository **Setting** tab, and open Secret and Variable, then click Action. Next click **New reporistory secret** button**
-![image](https://user-images.githubusercontent.com/70064328/231191605-1e3c4b53-6d17-49f5-8e7f-c752ae12aee8.png)
-
----
-#### **9. In the name boxes, type PAT. Next, paste your copied Secret key to Secret boxes, then click **Add Secrets** button**
-![image](https://user-images.githubusercontent.com/70064328/231192376-16aa194c-07ae-4262-857f-d9d86701a110.png)
----
-
-
-#### **10. Now, Go to the **Action** tab**
-
-![CvYhP0B0CI](https://user-images.githubusercontent.com/68516357/222221960-f48ab9c3-eb77-4cb0-b932-5cd343381048.png)
-
-    
----
-#### **11. In the left sidebar, click the **Custom Build** workflow.**
-    
-![image](https://user-images.githubusercontent.com/68516357/222221307-8a4571d2-ac3e-410b-b999-0eb62b14d8d5.png)
-    
----
-#### **12. Above the list of workflow runs, select **Run workflow****
-    
-![image](https://user-images.githubusercontent.com/68516357/222222850-f991890c-5a80-4cc2-b83d-0ef35c24a79e.png)
-    
----
-#### **13. Select your desired options such as ***Magisk Version***, ***WSA Release Channel + WSA Archetecture*** , ***GApps Varient*** and ***Compression Format*** then click **Run workflow****
-    
-![image](https://user-images.githubusercontent.com/68516357/222224185-abcfa0cf-c8c6-46e3-bc38-871c968b86f2.png)
-    
----    
-#### **14. Wait for the action to complete and download the artifact**
-
-**DO NOT download it via multithread downloaders like IDM**
-
-![image](https://user-images.githubusercontent.com/68516357/222224469-5748b78a-158e-46ff-9f65-317dbb519aac.png)
-
----
-#### **15. Install like normal using [the instructions](https://github.com/YT-Advanced/WSA-Script#--installation) in this repository** and most important of all....
-
-<br/>
-
-### **Enjoy!**
- 
-<br/>
-
----    
-</details>
+          
       
 <details>     
-   <summary><h3> &nbsp; ❓Want to request a prebuilt custom build❓ <h3></summary>
+   <summary><picture><img style="float: right;" src="https://img.icons8.com/3d-fluency/94/ok.png" width="35" height="35"/></picture><h3> &nbsp; WSABuilds Builds Status (⚠️❗IMPORTANT: Read Before Downloading❗⚠️)<h3></summary>
+      
+## Builds Status and Stability
+
+<center><table>
+<thead>
+  <tr>
+    <th>WSA Version:</th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_11_logo.svg" style="width: 200px;"/></th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Windows_10_Logo.svg" style="width: 200px;"/></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>v2210.40000.7.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2211.40000.10.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2211.40000.11.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2301.40000.4.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2301.40000.7.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2302.40000.6.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2302.40000.8.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2302.40000.9.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2303.40000.2.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2303.40000.3.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2303.40000.4.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2303.40000.5.0</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>v2304.40000.5.0</td>
+    <td><a href="https://github.com/LSPosed/MagiskOnWSALocal/issues/550" target="_blank" rel="noopener noreferrer">⚠️</a></td>
+    <td><a href="https://github.com/cinit/WSAPatch/issues/33" target="_blank" rel="noopener noreferrer">⛔</a></td>
+  </tr>
+  <tr>
+    <td>v2304.40000.6.0</td>
+    <td><a href="https://github.com/LSPosed/MagiskOnWSALocal/issues/550" target="_blank" rel="noopener noreferrer">⚠️</a></td>
+    <td><a href="https://github.com/cinit/WSAPatch/issues/33" target="_blank" rel="noopener noreferrer">⛔</a></td>
+  </tr>
+  <tr>
+    <td>v2304.40000.7.0</td>
+    <td>✅</td>
+    <td><a href="https://github.com/cinit/WSAPatch/issues/33" target="_blank" rel="noopener noreferrer">⛔</a></td>
+  </tr>
+  <tr>
+    <td>v2305.40000.2.0</td>
+    <td>➖</td>
+    <td><a href="https://github.com/cinit/WSAPatch/issues/33" target="_blank" rel="noopener noreferrer">⛔</a></td>
+  </tr>
+</tbody>
+</table>
+  
+<table>
+<thead>
+  <tr>
+    <th colspan="4">Indicator Keys</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>✅</td>
+    <td>Stable</td>
+    <td colspan="2">Everything works as intended</td>
+  </tr>
+  <tr>
+    <td>⚠️</td>
+    <td>Unstable</td>
+    <td>Experience may not be smooth due to known bugs or issues</td>
+    <td><b><i><u>Click on the Emoji for more information<b><i></u></td>
+  </tr>
+  <tr>
+    <td>⛔</td>
+    <td>Not Working</td>
+    <td>Build is not working. DO NOT DOWNLOAD! </td>
+     <td><b><i><u>Click on the Emoji for more information<b><i></u></td>
+  </tr>
+  <tr>
+    <td>➖</td>
+    <td>No Information Yet</td>
+    <td colspan="2">Not enough information to confirm status. Please join the <a href="https://discord.gg/2thee7zzHZ" target="_blank" rel="noopener noreferrer">Discord</a> and confirm whether or not the builds are working.</td>
+  </tr>
+</tbody>
+</table>
    
-> **Note**
-> <br /> To request: <br /> - A newer build <br /> - A build with a different version of GApps (Google Play Services) or Magisk (root) <br /> - A build without Magisk (root) or GApps (Google Play Services) <br /> Feel free to open an issue in the [Issues page](https://github.com/MustardChef/WSABuilds/issues). <br /><br /> Requested (Custom) Builds can be in the "Custom Builds" section below.
-</details>
+<br/>
+<br/>  
+   
+</details>    
 
 |****Operating System****|****Download Page****|****Download Mirrors****|
 |----------|-----------|--------------|
-|<img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_11_logo.svg" style="width: 200px;"/> | [![win11down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2011%20x64-blue?style=for-the-badge&logo=windows11)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_11_2303.40000.5.0) <br /> [![win11down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2011%20arm64-blue?style=for-the-badge&logo=windows11)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_11_2303.40000.5.0_arm64)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/EsuisZvnWyxAnB4wrwr5B74Bv4wSKAlddfjYERrm0_5ZUw)|
-|<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Windows_10_Logo.svg" style="width: 200px;"/> | [![win10down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2010%20x64-blue?style=for-the-badge&logo=windows)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_10_2303.40000.5.0)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/EndFayhyYR9Ju6k8x38dp7EB9xVGDkAMut-q-6tzBzcBhw)|
+|<img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_11_logo.svg" style="width: 200px;"/> | [![win11down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2011%20x64-blue?style=for-the-badge&logo=windows11)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_11_2305.40000.2.0) <br /> [![win11down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2011%20arm64-blue?style=for-the-badge&logo=windows11)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_11_2305.40000.2.0_arm64)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/EttlI-D1mZdJpAUo2noxNBYBnqtQPkEqCbtgU6dsksqPzw)|
+|<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Windows_10_Logo.svg" style="width: 200px;"/> | [![win10down](https://img.shields.io/badge/Download%20Latest%20Build-Windows%2010%20x64-blue?style=for-the-badge&logo=windows)](https://github.com/MustardChef/WSABuilds/releases/tag/Windows_10_2303.40000.5.0)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/Eq6gTz4jNztIqIGkO9P7zjYBexZPiAGY2V_4BYfRNAGRHQ)|
 | <p align="center"><img src="https://img.icons8.com/color/240/null/windows-11.png" style="width: 50px;"/> <img src="https://img.icons8.com/color/240/null/windows-10.png" style="width: 50px;"/></p>|[![windownold](https://img.shields.io/badge/Windows%2010%2F11-Older%20Builds-red?style=for-the-badge)](https://github.com/MustardChef/WSABuilds/blob/master/OldBuilds.md)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/EgNsfSstHBtIuAZgiNVkanYBTwu0kKVC_QvOiW7i0IojdQ)|
 |<p align="center"><img src="https://img.icons8.com/color/240/null/windows-11.png" style="width: 50px;"/> <img src="https://img.icons8.com/color/240/null/windows-10.png" style="width: 50px;"/></p>| <h4>Custom Builds:<h4> [![windownmagikdelta](https://img.shields.io/badge/Windows%2010%2F11-Magisk%20Delta-382bef?style=for-the-badge)](https://github.com/MustardChef/WSAMagiskDelta)|  |
 |<p align="center"><img align="centre;" src="https://user-images.githubusercontent.com/68516357/216452358-8137df76-875f-4b59-b77d-ca34c8a2d6d3.png" style="width: 80px;"/></p>|[<img src="https://img.shields.io/badge/Download-.msix%20Sources-3A6B35?style=for-the-badge&logoColor=white&logo=Github" />](https://github.com/MustardChef/WSAPackages)|[<img src="https://img.shields.io/badge/OneDrive-white?style=for-the-badge&logo=Microsoft%20OneDrive&logoColor=0078D4" style="width: 150px;"/>](https://x6cgr-my.sharepoint.com/:f:/g/personal/mcdt_x6cgr_onmicrosoft_com/EgSWYr5JLjFNkSmNydPNFKsBJAlCKj61c6BbbbVGPglASA?e=weIk7y)|
 
 &nbsp;
 
+      
 ## Requirements
+
+
+<center><table>
+<thead>
+  <tr>
+    <th></th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_11_logo.svg" style="width: 200px;"/></th>
+    <th><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Windows_10_Logo.svg" style="width: 200px;"/></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><img style="float: right;" src="https://img.icons8.com/fluency/96/null/windows-update--v1.png" width="60" height="60"/><h4>Windows Build Number<h4></td>
+    <td>Windows™ 11: Build 22000.526 or higher.</td>
+    <td>Windows™ 10: 22H2 10.0.19045.2311 or higher. <br /><br /><b>From WSA version 2301.40000.7.0 and higher in this repo, there is Unofficial support for Windows™ 10: 20H1 10.0.19041.264 or higher**. You must install <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB5014032" target="_blank" rel="noopener noreferrer">KB5014032</a> then install <a href="https://www.catalog.update.microsoft.com/Search.aspx?q=KB5022834" target="_blank" rel="noopener noreferrer">KB5022834</a> to use WSA on these older Windows 10 builds<b><br /><br /><b></td>
+  </tr>
+  <tr>
+    <td><img style="float: right;" src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/null/external-RAM-technology-and-devices-smashingstocks-flat-smashing-stocks.png" width="60" height="60"/><h4>RAM<h4></td>
+    <td colspan="2"><ul><li>4 to 6 GB (Not Recommended)</li><li>8 GB (Minimum)</li><li>16 GB (Recommended)</li></ul></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img style="float: right;" src="https://img.icons8.com/3d-fluency/94/null/electronics.png" width="60" height="60"/><h4>Processor<h4></td>
+    <td colspan="2"><b><i>CPU Architecture: x86_64 or arm64<b><i></td>
+  </tr>
+  <tr>
+    <td>Your PC should meet the basic Windows™ 11 requirements i.e Core i3 8th Gen, Ryzen 3000, Snapdragon 8c, or above</td>
+    <td>N/A </br></br> This is a bit of a hit or miss, but it is highly recommended that your processor is listed in the <a href="https://learn.microsoft.com/en-gb/windows-hardware/design/minimum/windows-processor-requirements" target="_blank" rel="noopener noreferrer">supported CPU lists for Windows 11 requirements</a></td>     
+  </tr>
+  <tr>
+    <td><img style="float: right;" src="https://img.icons8.com/3d-fluency/94/null/video-card.png" width="60" height="60"/><h4>GPU<h4></td>
+      <td colspan="2">Any compatible Intel, AMD or Nvidia GPU. <br /> GPU Performance may vary depending on its compatibility with Windows Subsystem For Android™  <br /><br /><details><summary><h4>Users with Intel HD Graphics 530 and older<h4></summary><br /><h5> WSA may not start or graphical glitches will occur when Intel HD Graphics 530 and Older iGPUs are used. This is a known issue, but unfortunately there are no fixes that I currently know of, plus, these GPUs are too old and do not meet Windows 11 requirements and hence are not offical supported. <a href="https://github.com/MustardChef/WSABuilds/blob/master/Guides/ChangingGPU.md" target="_blank" rel="noopener noreferrer">Follow this guide</a> to switch to another iGPU/dGPU/eGPU that you may have or Microsoft Basic Renderer<h5></details><br/><details><summary><h4>Users with Nvidia GPUs<h4></summary><br /><h5> Nvidia GPUs are known to cause problems. If Windows Subsystem For Android™ does not start or there are graphical glitches when an Nvidia GPU is used, <a href="https://github.com/MustardChef/WSABuilds/blob/master/Guides/ChangingGPU.md" target="_blank" rel="noopener noreferrer">follow this guide</a> to switch to another iGPU/dGPU/eGPU  that you may have or Microsoft Basic Renderer<h5></details></td>
+  </tr>
+  <tr>
+    <td rowspan="2"><img style="float: right;" src="https://img.icons8.com/3d-fluency/94/null/ssd.png" width="60" height="60"/><h4>Storage<h4></td>
+    <td colspan="2"><b><i>Solid-state drive (RECOMMENDED)<i><b> <br />OR</br> <b><i>Hard Disk Drive (HDD)<i><b>   (NOT RECOMMENDED)<i></td>
+  </tr>
+  <tr>
+     <td colspan="2"><b><i>Minimum Storage Requirements: You must have at least 10GB free on the system drive (C:\)<b><i></td>
+  </tr>
+  <tr>
+    <td><img style="float: right;" src="https://img.icons8.com/stickers/100/null/storage.png" width="60" height="60"/><h4>Partition<h4></td>
+    <td colspan="2"><b><i>NTFS ONLY<b><i> <br /><br /> Windows Subsystem For Android™ can only be installed on a NTFS partition, not on an exFAT partition</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><img style="float: left;" src="https://user-images.githubusercontent.com/68516357/230764789-ad8f7361-4a3b-49a8-a8e9-24fdc87d5781.png" width="66" height="58"/><h4>Windows Features Needed<h4></td>
+    <td colspan="2">Virtual Machine Platform Enabled</td>
+  </tr>
+  <tr>
+    <td colspan="2">Windows Hypervisor Platform Enabled</td>
+  </tr>
+  <tr>
+    <td colspan="2">Windows Subsystem For Linux™ Enabled (Optional)</td>
+  </tr>
+  <tr>
+    <td colspan="2">Hyper V Enabled (Optional)</td>
+  </tr>
+  <tr>
+    <td colspan="2"><b><i>These optional settings are for virtualization and provide components that are needed to run WSA. You can enable these settings by pressing the Windows Key + R on your keyboard and typing "OptionalFeatures.exe" into the box, pressing enter and selecting the features above followed by pressing apply<b><i></td>
+  </tr>
+  <tr>
+    <td><img style="float: right;" src="https://user-images.githubusercontent.com/68516357/230759907-5d11950e-1b17-4811-8f4e-a0f82e598079.png" width="60" height="60"/><h4>Virtualization<h4></td>
+    <td colspan="2">The Computer must support virtualization and be enabled in BIOS/UEFI and Optional Features. </br> <h3><a href="https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1" target="_blank" rel="noopener noreferrer">Guide on how to enable</a><h3></td>
+  </tr>
+</tbody>
+</table>
+
+<!--
 |Component|     <img src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Windows_11_logo.svg" style="width: 200px;"/>|  <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Windows_10_Logo.svg" style="width: 200px;"/>     |
 |-----------------|-----------------------|-----------------------|
 |<img style="float: right;" src="https://img.icons8.com/fluency/96/null/windows-update--v1.png" width="60" height="60"/><h4>Windows Build Number<h4>|Windows™ 11: Build 22000.526 or higher.|Windows™ 10: 22H2 10.0.19045.2311 or higher. <br /> <br /> **From WSA version 2301.40000.7.0 and higher in this repo, there is Unofficial support for Windows™ 10: 20H1 10.0.19041.264 or higher**. You must install [KB5014032](https://www.catalog.update.microsoft.com/Search.aspx?q=KB5014032) then install [KB5022834](https://www.catalog.update.microsoft.com/Search.aspx?q=KB5022834) to use WSA on these older Windows 10 builds <br /> <br /> |
@@ -164,7 +264,7 @@
 |<img style="float: right;" src="https://img.icons8.com/stickers/100/null/storage.png" width="60" height="60"/><h4>Partition<h4>|NTFS <br /> Windows Subsystem For Android™ can only be installed on a NTFS partition, not on an exFAT partition |NTFS <br /> Windows Subsystem For Android™ can only be installed on a NTFS partition, not on an exFAT partition|
 |<img style="float: left;" src="https://user-images.githubusercontent.com/68516357/230764789-ad8f7361-4a3b-49a8-a8e9-24fdc87d5781.png" width="66" height="58"/><h4>Windows Features Needed<h4>|- Virtual Machine Platform Enabled <br /> - Windows Hypervisor Platform Enabled <br /> - Hyper V Enabled (Optional)<br /> - Windows Subsystem For Linux™ Enabled (Optional) <br /><br /> These optional settings are for virtualization and provide components that are needed to run WSA. You can enable these settings from Control Panel/ Optional Features.|- Virtual Machine Platform Enabled <br /> - Windows Hypervisor Platform Enabled <br /> - Hyper V Enabled (Optional)<br /> - Windows Subsystem For Linux™ Enabled (Optional) <br /><br /> These optional settings are for virtualization and provide components that are needed to run WSA. You can enable these settings from Control Panel/ Optional Features.|
 |<img style="float: right;" src="https://user-images.githubusercontent.com/68516357/230759907-5d11950e-1b17-4811-8f4e-a0f82e598079.png" width="60" height="60"/><h4>Virtualization<h4>|- The Computer must support virtualization and be enabled in BIOS/UEFI and Optional Features. [Guide](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1)|- The Computer must support virtualization and be enabled in BIOS/UEFI and Optional Features. [Guide](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-11-pcs-c5578302-6e43-4b4b-a449-8ced115f58e1)|
-
+-->
 
 &nbsp;
 
@@ -268,11 +368,9 @@
 
 &nbsp;
 
-### New CLI and GUI Uninstall Tool Coming Soon! Join the Discord for announcements and updates.
-
 > **Note**: 
 > 
-> If you want to preseve your data, make a backup of the `%LOCALAPPDATA%\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache\userdata.vhdx` file. After uninstalling, copy the VHDX file back to the `%LOCALAPPDATA%\Package\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache` folder.
+> If you want to preseve your data, make a backup of the `%LOCALAPPDATA%\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache\userdata.vhdx` file. After uninstalling, copy the VHDX file back to the `%LOCALAPPDATA%\Package\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache` folder. For a more comprehensive and detailed guide, take a look at the **Backup and Restore section** in this README markdown
 
 - To remove WSA installed through WSABuild:
 
@@ -290,7 +388,56 @@
 </details>
 
 &nbsp;
+       
+<details>     
+   <summary><picture><img style="float: right;" src="https://img.icons8.com/fluency/96/cloud-backup-restore.png" width="60" height="60"/></picture><h1> &nbsp; Backup and Restore Userdata<h1></summary>
 
+## Backing Up Your Userdata
+      
+In order to make a backup of your WSA data you must copy the ``Userdata.vhdx`` (which includes, but is not limited Android Apps and their data, settings etc.), located at ``%LOCALAPPDATA%\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache\userdata.vhdx``, to a safe location     
+      
+## Restoring Your Backup
+
+Before attempting to restore your backup, you must remove WSA if installed. Then before you run the ``Run.bat`` script (to reinstall WSA after removing it), you need to remove these lines from ``Install.ps1``, located in the your extracted WSA folder:
+      
+&nbsp;
+      
+> <picture>
+>   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/light-theme/tip.svg">
+>   <img alt="Tip" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/tip.svg">
+> </picture><br>
+>     
+> The Lines (as shown below) that you need to remove in ``Install.ps1`` may vary depending on the type of WSA Build that you are trying to install.    
+      
+&nbsp;
+      
+Official Magisk:
+```pwsh
+Start-Process "wsa://com.topjohnwu.magisk"
+```
+Magisk Delta:
+```pwsh
+Start-Process "wsa://io.github.huskydg.magisk"
+```
+Magisk Alpha:
+```pwsh
+Start-Process "wsa://io.github.vvb2060.magisk"
+```
+Google Play Store:
+```pwsh
+Start-Process "wsa://com.android.vending"
+```
+Amazon Appstore:
+```pwsh
+Start-Process "wsa://com.amazon.venezia"
+``` 
+After running the script, do not run WSA at all, and go to ``%localappdata%\Packages`` and (if the folders do not exist, create them) in ``MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache\`` paste the userdata.vhdx
+
+Now run WSA and your userdata should hopefully be restored
+</details>
+      
+&nbsp;
+      
 <details>     
    <summary><picture><img style="float: right;" src="https://img.icons8.com/3d-fluency/94/null/help.png" width="60" height="60"/></picture><h1> &nbsp; FAQ<h1></summary>
 
@@ -392,6 +539,10 @@
 ### Installing BusyBox
 
 [<img src="https://img.shields.io/badge/-How%20to%20install%20BusyBox-474154?style=for-the-badge&logoColor=white&logo=github" />](https://github.com/MustardChef/WSABuilds/blob/master/Guides/BusyBox.md)
+      
+### Localhost Loopback Guide
+      
+[<img src="https://img.shields.io/badge/-Localhost%20Loopback-474154?style=for-the-badge&logoColor=white&logo=github" />](https://github.com/MustardChef/WSABuilds/blob/master/Guides/LocalHostLoopback.md)  
 
 </details> 
 
@@ -427,6 +578,123 @@
 
 </details>  
 
+&nbsp;
+      
+<details>     
+   <summary><picture><img style="float: right;" src="https://img.icons8.com/fluency/96/request-service.png" width="60" height="60"/></picture><h1> &nbsp; Custom Builds<h1></summary>    
+      
+<details>     
+   <summary><h3> &nbsp; ❓Want to build your own custom build❓ <h3></summary>
+
+| :exclamation: **Important:**  &nbsp;  `⚠️DO NOT FORK⚠️`               |
+|------------------------------------------------------------------------|
+|**This repository is designed specifically not to be forked. MagiskOnWSA and some of the various forks and clones that have sprung up on the platform (***potentially***) violate GitHub's Terms of Service due to abuse of GitHub Actions and have been ultimately warned, disabled or banned.**| 
+|**Therefore, don't fork this repository unless you're a developer and want to modify the code itself and/or want to contribute to this Github repository.**|
+|**If you want to create your Custom Build, please follow the instructions set out clearly, to avoid the repo from being taken down as a result of a misuse of Github Actions due to the large number of forks.**|
+      
+#### **1. Star the WSABuilds repos (I will happy if you do that)**
+
+#### **2. Check the version from [Releases](https://github.com/MustardChef/WSABuilds/releases) first. If it does not have the version you want, continue to follow this guide. If it does, then feel free to use those prebuild WSA builds**
+
+#### **3. Open [this page directly](https://yt-advanced.github.io/WSA-Script/Issues.html) then choose the option that you want to build**  
+![image](https://user-images.githubusercontent.com/70064328/236150011-191bf3a8-2efb-44a1-af44-202c6ea9fe66.png)
+
+#### **4. Click "Create Issues" Button, the issues page will be generated and open. Then you click "Submit New Issues" (green button) and wait.**
+![image](https://user-images.githubusercontent.com/70064328/236150320-65fdd492-9fc4-4176-b3bd-a3cee8b7753d.png)
+
+#### **5. After about 15 minutes, the bot will reply that the workflow have built successfully (like the picture below), OPEN THE LINK BELOW THE BOT COMMENT**
+![image](https://user-images.githubusercontent.com/68516357/236199088-81ecece8-cb3c-4181-a2b7-782ad6d8a762.png)
+
+#### **6. Download the package as artifact**
+**DO NOT download it via multithread downloaders like IDM**
+
+![image](https://user-images.githubusercontent.com/68516357/222224469-5748b78a-158e-46ff-9f65-317dbb519aac.png)
+
+#### **7. Install like normal using [the instructions](https://github.com/MustardChef/WSABuilds#--installation) in this repository**
+
+---
+<summary><h3> &nbsp; The workflow didn't work ❓ Follow these step <h3></summary>
+
+#### **1. Open the home page, click on the button (shown below) and select "import a repository" or go to [this page directly](https://github.com/new/import)**
+   ***Step 1.1:***
+   
+   <img src="https://user-images.githubusercontent.com/68516357/221636520-78d0716a-247b-4034-aa9d-bdbe2277950c.png" style="width: 350px;"/>
+   
+   ***Step 1.2:***
+   
+   ![image](https://user-images.githubusercontent.com/68516357/221641202-e3ef4deb-f2dd-46e6-82c8-fb4767f82e99.png)
+   
+---   
+#### **2. [Copy the URL of this Repo](https://github.com/WellCodeIsDelicious/WSA-Script) and paste it into the the text box below and press "Import"** 
+
+![image](https://user-images.githubusercontent.com/68516357/221643582-72d71f68-8f53-48d9-a940-692a54d42098.png)
+
+---
+#### **3. Go to the **Setting** tab in your newly imported repo and enable "Github Actions"**
+   ***Step 3.1:***
+   
+![Settings](https://user-images.githubusercontent.com/68516357/222214308-b52b1c6f-a60b-44ef-9ce0-bc335087e3a2.png)
+
+   ***Step 3.2:***
+   
+![MRq9WD3SO2](https://user-images.githubusercontent.com/68516357/222215598-30d68ad3-9700-4061-bba4-815b3befcb10.png)
+
+---
+#### **4. Then, scroll down until you reach the section titled "Workflow Permission" and follow the steps as shown in the image below**
+![image](https://user-images.githubusercontent.com/68516357/224546417-a82249b4-3864-42bd-8a29-32350b8b0c97.png)
+
+---
+#### **5. Open [this link](https://github.com/settings/tokens/new) in new tab, then follow the step below. FINALLY, SCROLL DOWN AND CLICK GENERATE TOKEN**
+![image](https://user-images.githubusercontent.com/70064328/231184720-0d3b4ce7-0b82-4b1f-b337-5f0fd0ceb632.png)
+
+---
+#### **6. The key will appear. Then click the copy button at right side of the key.**
+![image](https://user-images.githubusercontent.com/70064328/231189492-cf3b407e-708b-4224-ba4e-11f3e27012a1.png)
+
+---
+#### **7. Now, back to your repository **Setting** tab, and open Secret and Variable, then click Action. Next click **New reporistory secret** button**
+![image](https://user-images.githubusercontent.com/70064328/231191605-1e3c4b53-6d17-49f5-8e7f-c752ae12aee8.png)
+
+---
+#### **8. In the name boxes, type PAT. Next, paste your copied Secret key to Secret boxes, then click **Add Secrets** button**
+![image](https://user-images.githubusercontent.com/70064328/231192376-16aa194c-07ae-4262-857f-d9d86701a110.png)
+
+---
+#### **9. Now, Go to the **Action** tab**
+![CvYhP0B0CI](https://user-images.githubusercontent.com/68516357/222221960-f48ab9c3-eb77-4cb0-b932-5cd343381048.png)
+
+---
+#### **10. In the left sidebar, click the **Custom Build** workflow.**
+![image](https://user-images.githubusercontent.com/68516357/222221307-8a4571d2-ac3e-410b-b999-0eb62b14d8d5.png)
+
+---
+#### **11. Above the list of workflow runs, select **Run workflow****
+![image](https://user-images.githubusercontent.com/68516357/222222850-f991890c-5a80-4cc2-b83d-0ef35c24a79e.png)
+
+---
+#### **12. Select your desired options such as ***Magisk Version***, ***WSA Release Channel + WSA Archetecture*** , ***GApps Varient*** and ***Compression Format*** then click **Run workflow****
+![image](https://user-images.githubusercontent.com/68516357/222224185-abcfa0cf-c8c6-46e3-bc38-871c968b86f2.png)
+
+---    
+#### **13. Wait for the action to complete and download the artifact**
+**DO NOT download it via multithread downloaders like IDM**
+![image](https://user-images.githubusercontent.com/68516357/222224469-5748b78a-158e-46ff-9f65-317dbb519aac.png)
+
+---
+#### **14. Install like normal using [the instructions](https://github.com/MustardChef/WSABuilds#--installation) in this repository** and most important of all....
+
+### **Enjoy!**
+
+</details>
+   
+<details>     
+   <summary><h3> &nbsp; ❓Want to request a prebuilt custom build❓ <h3></summary>
+   
+> **Note**
+> <br /> To request: <br /> - A newer build <br /> - A build with a different version of GApps (Google Play Services) or Magisk (root) <br /> - A build without Magisk (root) or GApps (Google Play Services) <br /> Feel free to open an issue in the [Issues page](https://github.com/MustardChef/WSABuilds/issues). <br /><br /> Requested (Custom) Builds can be in the "Custom Builds" section below.
+</details>
+      
+</details>     
 
 &nbsp;      
       
@@ -439,8 +707,7 @@
 - [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
 - [Magisk](https://github.com/topjohnwu/Magisk): The Magic Mask for Android
 - [The Open Google Apps Project](https://opengapps.org): Script the automatic generation of up-to-date Google Apps packages
-- [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU): A kernel module to provide /system/xbin/su to Android Kernel
-- [Kernel Assisted Superuser](https://git.zx2c4.com/kernel-assisted-superuser): Kernel assisted means of gaining a root shell for Android
+- [KernelSU](https://github.com/tiann/KernelSU): A Kernel based root solution for Android
 - [WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA
 - [MagiskOnWSA](https://github.com/LSPosed/MagiskOnWSA): `Deprecated` Integrate Magisk root and Google Apps into WSA
 - [MagiskOnWSALocal](https://github.com/LSPosed/MagiskOnWSALocal): Integrate Magisk root and Google Apps into WSA
